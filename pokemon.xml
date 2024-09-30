@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!DOCTYPE team [
+        <!ELEMENT team (pokemon+)>
+        <!ELEMENT pokemon (id, name, types, ability, nature, level, item?, stats, moves)>
+        <!ATTLIST pokemon status CDATA "none">
+        <!ELEMENT id (#PCDATA)>
+        <!ELEMENT name (#PCDATA)>
+        <!ATTLIST name nick CDATA "none">
+        <!ELEMENT types (type+)>
+        <!ELEMENT type (#PCDATA)>
+        <!ELEMENT ability (#PCDATA)>
+        <!ELEMENT nature (#PCDATA)>
+        <!ELEMENT level (#PCDATA)>
+        <!ELEMENT item (#PCDATA)>
+        <!ELEMENT stats (hp, attack, defense, spAttack, spDefense, speed)>
+        <!ELEMENT hp (#PCDATA)>
+        <!ELEMENT attack (#PCDATA)>
+        <!ELEMENT defense (#PCDATA)>
+        <!ELEMENT spAttack (#PCDATA)>
+        <!ELEMENT spDefense (#PCDATA)>
+        <!ELEMENT speed (#PCDATA)>
+        <!ELEMENT moves (move+)>
+        <!ELEMENT move (#PCDATA)>
+        <!ATTLIST move moveType CDATA "none">
+        ]>
+<team>
+    <pokemon>
+        <id>361</id>
+        <name nick="Fresquito">SNORUNT</name>
+        <types>
+            <type>Ice</type>
+        </types>
+        <ability>Levitate</ability>
+        <nature>Naive</nature>
+        <level>18</level>
+        <stats>
+            <hp>50</hp>
+            <attack>26</attack>
+            <defense>24</defense>
+            <spAttack>24</spAttack>
+            <spDefense>24</spDefense>
+            <speed>29</speed>
+        </stats>
+        <moves>
+            <move moveType="ice">Ice Beam</move>
+            <move moveType="normal">Headbutt</move>
+            <move moveType="normal">Double Team</move>
+            <move moveType="dark">Bite</move>
+        </moves>
+    </pokemon>
+    <pokemon>
+        <id>158</id>
+        <name>TOTODILE</name>
+        <types>
+            <type>Water</type>
+        </types>
+        <ability>Keen Eye</ability>
+        <nature>Quiet</nature>
+        <level>17</level>
+        <item>Bright Powder</item>
+        <stats>
+            <hp>47</hp>
+            <attack>29</attack>
+            <defense>29</defense>
+            <spAttack>24</spAttack>
+            <spDefense>25</spDefense>
+            <speed>19</speed>
+        </stats>
+        <moves>
+            <move moveType="water">Water Pulse</move>
+            <move moveType="normal">Horn Attack</move>
+            <move moveType="normal">Egg Bomb</move>
+            <move moveType="water">Water Spout</move>
+        </moves>
+    </pokemon>
+    <pokemon>
+        <id>306</id>
+        <name nick="x4 Tierra&amp;lucha">AGGRON</name>
+        <types>
+            <type>Steel</type>
+            <type>Rock</type>
+        </types>
+        <ability>Cloud Nine</ability>
+        <nature>Careful</nature>
+        <level>19</level>
+        <stats>
+            <hp>56</hp>
+            <attack>52</attack>
+            <defense>78</defense>
+            <spAttack>26</spAttack>
+            <spDefense>34</spDefense>
+            <speed>26</speed>
+        </stats>
+        <moves>
+            <move moveType="steel">Iron Defense</move>
+            <move moveType="steel">Meteor Mash</move>
+            <move moveType="rock">Rock Throw</move>
+            <move moveType="steel">Steel Wing</move>
+        </moves>
+    </pokemon>
+</team>
